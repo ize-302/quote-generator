@@ -41,5 +41,5 @@ func main() {
 	// random number between 0 and (quotesCount-1)
 	randomIndex := rand.Intn(quotesCount-1) + 0
 
-	fmt.Println(quotes.Quotes[randomIndex])
+	fmt.Printf("%s - %s \n", quotes.Quotes[randomIndex].Quote, quotes.Quotes[randomIndex].Author)
 }
